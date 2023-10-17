@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import React from 'react';
 import data from "./Data.js";
 import List from "./List.jsx";
@@ -14,14 +12,13 @@ function App() {
     return (
         <>
             <h2>Birthday reminder</h2>
-            <div className="bg-pink text-white">
+            <div className="bg-lighten-md text-white">
 
 
-                <section className="card ">
+                <section className="card bg-magenta">
 
                     <div className="card-body" style={{
-                        width: 350,
-                        height: 600,}}>
+                        width: 350}}>
 
                         <h5 className="card-title ">{people.length} birthdays today</h5>
                         <List people={people}/>

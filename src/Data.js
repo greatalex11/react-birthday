@@ -3,7 +3,7 @@ export default [
     {id:1,
     nom:'Remy',
     age: 42,
-    image:"./assets/img/homme.jpg" },
+    image:"./assets/img/femmeheureuse.jpg"},
 
     {id:2,
         nom:'Jeanne',
